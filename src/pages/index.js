@@ -16,7 +16,6 @@ const IndexPage = () => (
         text="Skapa konto"
       ></PrimaryButton>
     </div>
-    <div></div>
   </Layout>
 )
 
