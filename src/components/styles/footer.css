@@ -1,0 +1,19 @@
+.mainFooter {
+  background-color: #313940;
+  color: white;
+  font-family: sans-serif;
+  margin: auto;
+  min-height: 10vh;
+}
+
+.mainFooter .content {
+  padding-top: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.mainFooter a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */
