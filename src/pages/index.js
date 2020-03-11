@@ -2,10 +2,7 @@ import React from "react"
 import PrimaryButton from "../components/primarybutton"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-
-import wide from "../images/wide.jpg"
 
 const IndexPage = () => (
   <Layout>
