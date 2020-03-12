@@ -7,7 +7,7 @@ import { slide as Menu } from "react-burger-menu"
 
 import "./styles/header.css"
 
-const isMobile = window.innerWidth < 480
+const isMobile = window.innerWidth < 480 !== "undefined"
 console.log(isMobile)
 var styles = {
   bmBurgerButton: {
