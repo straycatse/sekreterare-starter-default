@@ -8,6 +8,8 @@ const PrimaryButton = ({ link, text }) => (
       style={{
         paddingLeft: "20px",
         paddingRight: "20px",
+        paddingTop: "5px",
+        paddingBottom: "5px",
         fontFamily: "sans-serif",
         color: "white",
         border: "#cf475b solid 3px",

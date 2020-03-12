@@ -1,0 +1,12 @@
+.section {
+  min-height: 10vh;
+  margin: auto;
+  padding: 4rem;
+  font-family: sans-serif;
+}
+
+.section .content {
+  max-width: 1200px;
+  margin: auto;
+}
+/*# sourceMappingURL=section.css.map */
