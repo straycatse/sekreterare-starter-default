@@ -24,7 +24,6 @@ const IndexPage = () => (
       title="Kom igång med digitala protokoll!"
       text="sekreterare.nu befinner sig just nu i en gratis betaperiod, och det är öppet för vemsomhelst. Klicka bara på skapa konto för att komma igång med dina protokoll!"
       align="Center"
-      width="50%"
     ></Section>
   </Layout>
 )
