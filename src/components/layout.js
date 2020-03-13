@@ -22,10 +22,10 @@ var styles = {
     width: "36px",
     height: "30px",
     right: "36px",
-    top: "36px",
+    top: "1.45rem",
   },
   bmBurgerBars: {
-    background: "#373a47",
+    background: "#cf475b",
   },
   bmBurgerBarsHover: {
     background: "#a90000",
@@ -35,14 +35,14 @@ var styles = {
     width: "24px",
   },
   bmCross: {
-    background: "#bdc3c7",
+    background: "#cf475b",
   },
   bmMenuWrap: {
     position: "fixed",
     height: "100%",
   },
   bmMenu: {
-    background: "#373a47",
+    background: "#fff",
     padding: "2.5em 1.5em 0",
     fontSize: "1.15em",
   },
@@ -81,6 +81,7 @@ const Layout = ({ children }) => {
         className="burgerMenu"
         right
       >
+        <a className="navLinkMobile">Logga in</a>
         <PrimaryButton
           link="https://beta.sekreterare.nu/signup"
           text="Skapa konto"

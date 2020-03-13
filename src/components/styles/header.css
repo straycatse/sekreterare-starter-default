@@ -6,6 +6,17 @@
   padding-right: 20px;
 }
 
+.navLinkMobile {
+  color: #313940;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-bottom: 1rem;
+}
+
+.bm-item:focus {
+  outline: 0;
+}
+
 @media only screen and (min-width: 992px) {
   .bm-burger-button {
     display: none;
