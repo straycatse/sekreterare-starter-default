@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Section>
       <div style={{ paddingBottom: "3rem" }}>
         <h1>Gör det enkelt att vara sekreterare</h1>
-        <h3 style={{ fontWeight: "normal", lineHeight: 1 }}>
+        <h3 style={{ fontWeight: "normal" }}>
           Enkla digitala protokoll, direkt i webbläsaren!
         </h3>
         <PrimaryButton
