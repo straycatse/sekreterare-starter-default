@@ -1,0 +1,14 @@
+.column {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .column {
+    width: 100%;
+  }
+  .column .gatsby-image-wrapper {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=column.css.map */

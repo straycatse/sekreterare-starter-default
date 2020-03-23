@@ -2,10 +2,15 @@
   min-height: 10vh;
   margin: auto;
   padding: 4rem;
+  padding-bottom: 5rem;
+  overflow: hidden;
   font-family: sans-serif;
 
   .content {
     max-width: 1200px;
     margin: auto;
+    @media (max-width: 767px) {
+      width: 100% !important;
+    }
   }
 }

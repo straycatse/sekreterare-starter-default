@@ -4,14 +4,12 @@ import React from "react"
 
 import "./styles/section.css"
 
-const Section = ({ bgColor, title, text, align, width, children }) => (
+const Section = ({ bgColor, align, width, children }) => (
   <div
     className="section"
     style={{ backgroundColor: bgColor, textAlign: align }}
   >
     <div className="content" style={{ width: width }}>
-      <h2>{title}</h2>
-      <p>{text}</p>
       {children}
     </div>
   </div>
@@ -19,8 +17,6 @@ const Section = ({ bgColor, title, text, align, width, children }) => (
 
 Section.propTypes = {
   bgColor: PropTypes.string,
-  title: PropTypes.string,
-  text: PropTypes.string,
   align: PropTypes.string,
   width: PropTypes.string,
 }

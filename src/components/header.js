@@ -32,7 +32,6 @@ const Header = ({ siteTitle }) => (
         >
           <img style={{ maxWidth: 200 }} src={logo} alt={siteTitle}></img>
         </Link>
-
         <nav className="desktopMenu" style={{ float: "right", margin: 0 }}>
           <a className="navLink" href="https://beta.sekreterare.nu/signin">
             Logga in
