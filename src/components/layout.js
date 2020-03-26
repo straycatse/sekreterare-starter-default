@@ -81,7 +81,9 @@ const Layout = ({ children }) => {
         className="burgerMenu"
         right
       >
-        <a className="navLinkMobile">Logga in</a>
+        <a className="navLinkMobile" href="https://beta.sekreterare.nu/signin">
+          Logga in
+        </a>
         <PrimaryButton
           link="https://beta.sekreterare.nu/signup"
           text="Skapa konto"
